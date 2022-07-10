@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, user-scalable=no" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Averia+Libre:ital,wght@1,700&family=Kaisei+Tokumin&family=Noto+Serif+JP&display=swap" rel="stylesheet">
+    <link rel='stylesheet' id='main-css'  href='style.css' type='text/css' media='all' />    
+    <head>
+
+    </head>
+    <body>
+        <div id="app">
+        <div class="outerbox">
+        <Header1></Header1>
+        <div id="main-cont">
+             <ul class="category-list">
+                <li v-for="item in items" :key="key">
+                    <p class="tag">no.{{ item.id }}<span class="title">{{ item.name }}</span></p>
+                    <img v-bind:src="item.img"/>
+                 </li>
+             </ul>        
+        </div>
+        </div> 
+        </div>
+        <script src="js/vue.js"></script>
+        <script src="js/app.js"></script>      
+    </body>
+</html>
