@@ -13,12 +13,25 @@
         <div id="app">
         <div class="outerbox">
         <header>
-        <Header1></Header1>
+            <div>
+                <Header1></Header1>
+                <ul>
+                    <li v-for="category in category_lists" :key="catekey">
+                    <input type="checkbox" 
+                    v-bind:id="category" 
+                    v-bind:value="category" 
+                    v-model="preview"
+                    v-on:click="find_categories">
+                    <label v-bind:for="category">{{ category }}</label>
+                </li>
+                </ul>
+            </div>
         </header>
         <div id="main-cont">
+            <p>選択しているカテゴリ：{{ preview }}</p>
              <ul class="category-list">
                 <li v-for="item in items" :key="key">
-                    <p class="tag">no.{{ item.id }}<span class="title">{{ item.name }}</span></p>
+                    <div class="tag">no.{{ item.id }}<span class="title">{{ item.name }}</span><ul><li v-for="category in item.categories" :key="cate">{{ category }}</li></ul></div>
                     <img v-bind:src="item.img"/>
                  </li>
              </ul>        
