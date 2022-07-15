@@ -16,5 +16,5 @@ h1 span{display: block;font-size: .45em;margin-top: 1em;}
 .category-list{display: grid;  gap:4vw 2vw; grid-template-columns: repeat(4, 1fr);}
 .category-list li{position: relative;}
 .category-list li img{width: 100%;}
-.tag{position: absolute;background:url(img/paper.jpg) repeat;padding:1em;margin: 0;bottom: 0;left: 0;font-family: 'Averia Libre', cursive;font-size: 14px;}
+.tag{position: absolute;background:url(img/paper2.jpg) repeat;padding:1em;margin: 0;bottom: 0;left: 0;font-family: 'Averia Libre', cursive;font-size: 14px;}
 .tag span{display: block;font-size: 1.25em;}
