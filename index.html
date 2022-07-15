@@ -16,7 +16,7 @@
             <div>
                 <Header1></Header1>
                 <ul>
-                    <li v-for="category in category_lists" :key="catekey">
+                    <li v-for="category in category_lists">
                     <input type="checkbox" 
                     v-bind:id="category" 
                     v-bind:value="category" 
@@ -30,7 +30,7 @@
         <div id="main-cont">
             <p>選択しているカテゴリ：{{ preview }}</p>
              <ul class="category-list">
-                <li v-for="item in items" :key="key" v-show="item.display">
+                <li v-for="item in items" v-show="item.display">
                     <div class="tag">no.{{ item.id }}<span class="title">{{ item.name }}</span><ul><li v-for="category in item.categories" :key="cate">{{ category }}</li></ul></div>
                     <img v-bind:src="item.img"/>
                  </li>
