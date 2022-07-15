@@ -16,6 +16,7 @@ Vue.component('Header1',{
 var app = new Vue({
     el: '#app',
     data: {
+        preview: [],
         items: [
           {
             id: 1,
@@ -64,7 +65,7 @@ var app = new Vue({
       },
       {
           id: 6,
-          categories: ['plate'],
+          categories: ['beermug'],
           name: 'Flower plate',
           date: '',
           img: 'img/6.png',
@@ -87,11 +88,11 @@ var app = new Vue({
           date: '',
           img: 'img/8.png',
           description: '',
-            display: true
+          display: true
       },
       {
         id: 9,
-        categories: ['plate'],
+        categories: ['beermug'],
         name: 'Sunflower plate',
         date: 'June 1, 2022',
         img: 'img/9.png',
@@ -100,7 +101,7 @@ var app = new Vue({
       },
       {
           id: 10,
-          categories: ['plate'],
+          categories: ['beermug'],
           name: 'Flower plate',
           date: '',
           img: 'img/10.png',
@@ -109,7 +110,7 @@ var app = new Vue({
       },
       {
           id: 11,
-          categories: ['ornament'],
+          categories: ['plate'],
           name: 'Couple of Ducks',
           date: '',
           img: 'img/11.png',
@@ -118,7 +119,7 @@ var app = new Vue({
       },
       {
           id: 12,
-          categories: ['beermug'],
+          categories: ['plate'],
           name: 'Beer Mug',
           date: '',
           img: 'img/12.png',
@@ -145,7 +146,7 @@ var app = new Vue({
       },
       {
           id: 15,
-          categories: ['ornament'],
+          categories: ['plate'],
           name: 'Couple of Ducks',
           date: '',
           img: 'img/15.png',
@@ -154,7 +155,7 @@ var app = new Vue({
       },
       {
           id:16,
-          categories: ['beermug','cup'],
+          categories: ['plate'],
           name: 'Beer Mug',
           date: '',
           img: 'img/16.png',
@@ -162,8 +163,7 @@ var app = new Vue({
           display: true
       }
         ],
-      category_lists: ['plate','beermug','cup','glass','ornament'],
-      preview: []
+      category_lists: ['plate','beermug','cup','glass','ornament']
     },
     methods: {
       find_categories: function(){
