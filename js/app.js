@@ -157,8 +157,8 @@ var app = new Vue({
     methods: {
       find_categories: function(){
         var items = this.items;
-        this.$nextTick(() => {
         var preview = this.preview;
+        this.$nextTick(() => {
         if(preview.length > 0) {
 
           for (var i = 0; i < items.length; i++) {
