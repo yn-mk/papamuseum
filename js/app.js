@@ -157,9 +157,8 @@ var app = new Vue({
     methods: {
       find_categories: function(){
         var items = this.items;
+        this.$nextTick(() => {
         var preview = this.preview;
-        console.log(preview[1]);
-        console.log("boom!");
         if(preview.length > 0) {
 
           for (var i = 0; i < items.length; i++) {
@@ -180,6 +179,7 @@ var app = new Vue({
             items[i].display = true;
           }
         }
+      });
       }
     }
     
