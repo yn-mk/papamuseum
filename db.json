@@ -1,0 +1,16 @@
+{
+    "items": [
+        {
+            "id": 1,
+            "date": "2022/07/01",
+            "category": "plate",
+            "description": ""
+        },
+        {
+            "id": 2,
+            "date": "2022/07/02",
+            "category": "beermug",
+            "description": ""
+        }
+    ]
+}
