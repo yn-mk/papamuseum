@@ -4,14 +4,16 @@
             "id": 1,
             "category": "plate",
             "title": "text1",
-            "date": "2022/07/01"
+            "date": "2022/07/01",
+            "img": "/img/1.png"
         },
         
         {
             "id": 2,
             "category": "plate",
             "title": "text2",
-            "date": "2022/07/01"
+            "date": "2022/07/01",
+            "img": "/img/2.png"
         }
     ]
 }
