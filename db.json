@@ -6,7 +6,6 @@
             "title": "Sunflower plate",
             "img": "img/1.png",
             "description": "",
-            "display": true,
         },
         
         {
@@ -15,7 +14,6 @@
             "title": "Flower plate",
             "img": "img/2.png",
             "description": "",
-            "display": true,
         }
     ]
 }
