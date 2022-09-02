@@ -2,12 +2,12 @@
     "items": [
         {
             "id": 1,
-            "name": "text1"
+            "title": "text1"
         },
         
         {
             "id": 2,
-            "name": "text2"
+            "title": "text2"
         }
     ]
 }
