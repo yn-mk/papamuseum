@@ -2,11 +2,13 @@
     "items": [
         {
             "id": 1,
+            "time": "12:00",
             "title": "text1"
         },
         
         {
             "id": 2,
+            "time": "12:00",
             "title": "text2"
         }
     ]
