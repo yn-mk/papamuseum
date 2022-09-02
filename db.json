@@ -2,18 +2,14 @@
     "items": [
         {
             "id": 1,
-            "category": "plate",
-            "title": "Sunflower plate",
-            "img": "img/1.png",
-            "description": "",
+            "time": "12:00",
+            "title": "text1"
         },
         
         {
             "id": 2,
-            "category": "plate",
-            "title": "Flower plate",
-            "img": "img/2.png",
-            "description": "",
+            "time": "12:00",
+            "title": "text2"
         }
     ]
 }
