@@ -21,7 +21,7 @@
                     v-bind:id="category" 
                     v-bind:value="category" 
                     v-model="preview"
-                    v-on:click="find_categories">
+                    @change="find_categories">
                     <label v-bind:for="category">{{ category }}</label>
                 </li>
                 </ul>
