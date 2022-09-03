@@ -4,14 +4,21 @@
             "id": 1,
             "category": "plate",
             "title": "text1",
-            "date": "2022/07/01",
+            "date": "2022/07/01"
         },
         
         {
             "id": 2,
             "category": "plate",
             "title": "text2",
-            "date": "2022/07/01",
+            "date": "2022/07/01"
+        },
+        
+        {
+            "id": 3,
+            "category": "ornament",
+            "title": "Couple of ducks",
+            "date": "2022/07/01"
         }
     ]
 }
