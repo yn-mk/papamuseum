@@ -126,6 +126,38 @@
             "title": "Small flowers",
             "date": "2022/07/01",
             "display": true
+        },
+        
+        {
+            "id": 17,
+            "category": "cup",
+            "title": "Duck family",
+            "date": "2022/08/07",
+            "display": true
+        },
+        
+        {
+            "id": 18,
+            "category": "plate",
+            "title": "Flower plate w handle",
+            "date": "2022/08/07",
+            "display": true
+        },
+        
+        {
+            "id": 19,
+            "category": "plate",
+            "title": "Deep blue",
+            "date": "2022/08/14",
+            "display": true
+        },
+        
+        {
+            "id": 20,
+            "category": "plate",
+            "title": "Bouquet green",
+            "date": "2022/08/14",
+            "display": true
         }
     ]
 }
